@@ -18,3 +18,4 @@ function globant_corp_install() {
 
   // Can add code in here to make nodes, terms, etc.
 }
+
