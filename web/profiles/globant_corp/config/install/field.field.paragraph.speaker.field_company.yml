@@ -1,0 +1,19 @@
+uuid: 85386375-8982-46c1-ba03-601b10e3f244
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_company
+    - paragraphs.paragraphs_type.speaker
+id: paragraph.speaker.field_company
+field_name: field_company
+entity_type: paragraph
+bundle: speaker
+label: Company
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

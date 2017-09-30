@@ -1,0 +1,32 @@
+uuid: 14294372-4097-4fa4-a58b-eb44836137b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.converge_photo.field_photo
+    - field.field.paragraph.converge_photo.field_photo_caption_conv
+    - paragraphs.paragraphs_type.converge_photo
+  module:
+    - image
+id: paragraph.converge_photo.default
+targetEntityType: paragraph
+bundle: converge_photo
+mode: default
+content:
+  field_photo:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_photo_caption_conv:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden: {  }

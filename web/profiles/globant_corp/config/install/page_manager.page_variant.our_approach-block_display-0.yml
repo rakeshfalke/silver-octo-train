@@ -1,0 +1,37 @@
+uuid: 4c1afe43-10e9-49fe-8505-3e243219493f
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.our_approach
+  content:
+    - 'block_content:hero_block:c01d22cb-a649-427b-98f5-b884334c3588'
+  module:
+    - block_content
+id: our_approach-block_display-0
+label: 'Our approach page'
+variant: block_display
+variant_settings:
+  blocks:
+    d8e66ef6-a120-4e3a-beec-522cd9ebe154:
+      id: 'block_content:c01d22cb-a649-427b-98f5-b884334c3588'
+      label: our-approach
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: top
+      weight: 0
+      uuid: d8e66ef6-a120-4e3a-beec-522cd9ebe154
+      context_mapping: {  }
+  id: block_display
+  uuid: 69a00ef7-2129-41f3-8572-c002b3b3c7f4
+  label: null
+  weight: 0
+  page_title: 'Our approach'
+page: our_approach
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

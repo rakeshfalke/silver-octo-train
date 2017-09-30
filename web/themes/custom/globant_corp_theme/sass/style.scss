@@ -9,3 +9,11 @@
 
 // Base-theme overrides.
 @import 'overrides';
+
+//Blocks
+@import 'component/blocks/block-converge-photos';
+@import 'component/blocks/block-featured-video';
+
+// Paragraphs
+@import 'component/paragraphs/paragraph-converge-photo';
+@import 'component/paragraphs/paragraph-featured-video';

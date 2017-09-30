@@ -1,0 +1,19 @@
+uuid: 9bf6ec79-2624-4ad9-aca8-fbed74c10180
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_photo_caption_conv
+    - paragraphs.paragraphs_type.converge_photo
+id: paragraph.converge_photo.field_photo_caption_conv
+field_name: field_photo_caption_conv
+entity_type: paragraph
+bundle: converge_photo
+label: 'Photo Caption'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

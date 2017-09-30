@@ -1,0 +1,55 @@
+uuid: 5b36265a-77cd-41e4-817c-141afe7a484b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.featured_video.field_speakers_description
+    - field.field.paragraph.featured_video.field_title
+    - field.field.paragraph.featured_video.field_url
+    - field.field.paragraph.featured_video.field_video_image
+    - paragraphs.paragraphs_type.featured_video
+  module:
+    - image
+    - link
+id: paragraph.featured_video.default
+targetEntityType: paragraph
+bundle: featured_video
+mode: default
+content:
+  field_speakers_description:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_url:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_video_image:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

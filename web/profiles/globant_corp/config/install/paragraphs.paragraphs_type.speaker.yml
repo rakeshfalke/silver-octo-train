@@ -1,0 +1,9 @@
+uuid: 021368d4-ea22-450c-9e3e-144bd4f05e15
+langcode: en
+status: true
+dependencies: {  }
+id: speaker
+label: Speaker
+icon_uuid: null
+description: 'Speakers for the year in converge'
+behavior_plugins: {  }

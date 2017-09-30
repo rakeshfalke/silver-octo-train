@@ -1,0 +1,24 @@
+uuid: 4c103ac9-e4fe-4664-a963-1606c26384b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.speakers
+    - field.field.block_content.speakers.field_speaker
+  module:
+    - entity_reference_revisions
+id: block_content.speakers.default
+targetEntityType: block_content
+bundle: speakers
+mode: default
+content:
+  field_speaker:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

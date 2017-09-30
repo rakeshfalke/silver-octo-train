@@ -1,0 +1,45 @@
+uuid: 39b6330f-e236-4362-a146-70b04580e83c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.converge_photos
+    - field.field.block_content.converge_photos.field_converge_photo_gallery
+    - field.field.block_content.converge_photos.field_gallery_btnlink
+  module:
+    - link
+    - paragraphs
+id: block_content.converge_photos.default
+targetEntityType: block_content
+bundle: converge_photos
+mode: default
+content:
+  field_converge_photo_gallery:
+    type: entity_reference_paragraphs
+    weight: 26
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_gallery_btnlink:
+    weight: 27
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

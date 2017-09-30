@@ -1,0 +1,23 @@
+uuid: e221290d-1dfa-4f3d-a16c-e1625556b6dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.converge_photos
+    - field.storage.block_content.field_gallery_btnlink
+  module:
+    - link
+id: block_content.converge_photos.field_gallery_btnlink
+field_name: field_gallery_btnlink
+entity_type: block_content
+bundle: converge_photos
+label: 'Gallery Btnlink'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

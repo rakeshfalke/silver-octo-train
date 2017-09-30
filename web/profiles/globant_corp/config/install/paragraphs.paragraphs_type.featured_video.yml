@@ -1,0 +1,9 @@
+uuid: 0359121c-637f-45d9-9747-43660b94d49d
+langcode: en
+status: true
+dependencies: {  }
+id: featured_video
+label: 'Featured Video'
+icon_uuid: null
+description: 'Featured video for converge'
+behavior_plugins: {  }

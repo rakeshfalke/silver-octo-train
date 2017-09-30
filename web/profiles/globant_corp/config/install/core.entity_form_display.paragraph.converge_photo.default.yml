@@ -1,0 +1,36 @@
+uuid: add4136c-cbb0-462e-8181-3b33649cf4b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.converge_photo.field_photo
+    - field.field.paragraph.converge_photo.field_photo_caption_conv
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.converge_photo
+  module:
+    - image
+id: paragraph.converge_photo.default
+targetEntityType: paragraph
+bundle: converge_photo
+mode: default
+content:
+  field_photo:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_photo_caption_conv:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,9 @@
+uuid: 23d1d802-a836-4b0c-afb2-76a0ca2e2597
+langcode: en
+status: true
+dependencies: {  }
+id: converge_photo
+label: 'Converge Photo'
+icon_uuid: null
+description: 'Converge Photo Gallery'
+behavior_plugins: {  }

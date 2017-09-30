@@ -1,0 +1,45 @@
+definitions:
+  contact__site_page:
+    enabled: true
+    menu_name: footer
+    parent: ''
+    weight: 0
+    expanded: false
+  globant_corp__front_page:
+    menu_name: main
+    parent: ''
+    weight: 0
+    expanded: true
+    enabled: true
+  globant_corp__careers:
+    menu_name: main
+    parent: ''
+    weight: 0
+    expanded: false
+    enabled: true
+  globant_corp__contact_us:
+    menu_name: main
+    parent: ''
+    weight: 0
+    expanded: false
+    enabled: true
+  globant_corp__investors:
+    menu_name: main
+    parent: ''
+    weight: 0
+    expanded: false
+    enabled: true
+  globant_corp__our_approach:
+    menu_name: main
+    parent: ''
+    weight: 0
+    expanded: false
+    enabled: true
+  globant_corp__studios:
+    menu_name: main
+    parent: ''
+    weight: 0
+    expanded: false
+    enabled: true
+_core:
+  default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM

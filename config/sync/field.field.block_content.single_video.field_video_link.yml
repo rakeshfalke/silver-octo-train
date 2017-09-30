@@ -1,0 +1,23 @@
+uuid: 30d2ec10-44dc-446f-b9ad-fdc7806f99b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.single_video
+    - field.storage.block_content.field_video_link
+  module:
+    - link
+id: block_content.single_video.field_video_link
+field_name: field_video_link
+entity_type: block_content
+bundle: single_video
+label: 'Video Link'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

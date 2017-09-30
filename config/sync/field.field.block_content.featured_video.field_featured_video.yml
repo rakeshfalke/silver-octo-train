@@ -1,0 +1,34 @@
+uuid: ef3cd825-1b1b-437a-a31b-9f7eabb60312
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.featured_video
+    - field.storage.block_content.field_featured_video
+    - paragraphs.paragraphs_type.featured_video
+  module:
+    - entity_reference_revisions
+id: block_content.featured_video.field_featured_video
+field_name: field_featured_video
+entity_type: block_content
+bundle: featured_video
+label: 'Featured Video'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      featured_video: featured_video
+    target_bundles_drag_drop:
+      featured_video:
+        enabled: true
+        weight: 3
+      speaker:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

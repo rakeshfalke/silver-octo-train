@@ -1,0 +1,51 @@
+uuid: bbca822a-2406-4719-8a24-7f791a92721d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.speaker.field_company
+    - field.field.paragraph.speaker.field_image
+    - field.field.paragraph.speaker.field_name
+    - field.field.paragraph.speaker.field_role
+    - paragraphs.paragraphs_type.speaker
+  module:
+    - image
+id: paragraph.speaker.default
+targetEntityType: paragraph
+bundle: speaker
+mode: default
+content:
+  field_company:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_name:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_role:
+    weight: 3
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

@@ -1,0 +1,8 @@
+uuid: 28342e00-33ff-4320-9e15-5fea627830ad
+langcode: en
+status: true
+dependencies: {  }
+id: speakers
+label: Speakers
+revision: 0
+description: 'Some of the speakers this year'

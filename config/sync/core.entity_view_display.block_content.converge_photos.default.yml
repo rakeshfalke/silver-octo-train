@@ -1,0 +1,38 @@
+uuid: 289448f1-e926-49d0-9e26-6f3746b87f44
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.converge_photos
+    - field.field.block_content.converge_photos.field_converge_photo_gallery
+    - field.field.block_content.converge_photos.field_gallery_btnlink
+  module:
+    - entity_reference_revisions
+    - link
+id: block_content.converge_photos.default
+targetEntityType: block_content
+bundle: converge_photos
+mode: default
+content:
+  field_converge_photo_gallery:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_gallery_btnlink:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      target: _blank
+      url_only: false
+      url_plain: false
+      rel: '0'
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

@@ -1,0 +1,37 @@
+uuid: 6616425f-ee7e-4b1c-91e4-04fc4c8c8b0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.converge_photos
+    - field.storage.block_content.field_converge_photo_gallery
+    - paragraphs.paragraphs_type.converge_photo
+  module:
+    - entity_reference_revisions
+id: block_content.converge_photos.field_converge_photo_gallery
+field_name: field_converge_photo_gallery
+entity_type: block_content
+bundle: converge_photos
+label: 'Converge Photo Gallery'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      converge_photo: converge_photo
+    target_bundles_drag_drop:
+      converge_photo:
+        enabled: true
+        weight: 4
+      featured_video:
+        weight: 5
+        enabled: false
+      speaker:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

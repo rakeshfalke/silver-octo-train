@@ -1,0 +1,8 @@
+uuid: 0a8f2d01-a08b-465b-8e1c-de82dceb414a
+langcode: en
+status: true
+dependencies: {  }
+id: single_video
+label: 'Single video'
+revision: 0
+description: 'Single video block with text description'

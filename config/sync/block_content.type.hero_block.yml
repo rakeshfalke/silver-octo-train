@@ -1,0 +1,8 @@
+uuid: 83f2d04c-cfdb-4a18-9925-e58d1f9acca7
+langcode: en
+status: true
+dependencies: {  }
+id: hero_block
+label: 'Hero block'
+revision: 0
+description: 'Hero block is used to give title to page with background image'

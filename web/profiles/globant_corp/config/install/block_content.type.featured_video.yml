@@ -1,0 +1,8 @@
+uuid: b7c14beb-e9cc-494a-9ad4-92d219c51923
+langcode: en
+status: true
+dependencies: {  }
+id: featured_video
+label: 'Featured video'
+revision: 0
+description: 'Featured video block for converge'

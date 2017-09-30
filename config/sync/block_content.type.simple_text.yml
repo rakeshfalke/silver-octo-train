@@ -1,0 +1,8 @@
+uuid: f20d2dac-33a0-4130-b28d-0e2e2929e4a0
+langcode: en
+status: true
+dependencies: {  }
+id: simple_text
+label: 'Simple Text'
+revision: 0
+description: 'Simple text for creating the text paragraph'
