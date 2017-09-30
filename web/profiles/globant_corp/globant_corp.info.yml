@@ -4,41 +4,59 @@ description: 'Install with commonly used features for Globant corporate.'
 version: VERSION
 core: 8.x
 dependencies:
-  - node
-  - history
+  - admin_toolbar
+  - admin_toolbar_tools
+  - automated_cron
   - block
+  - block_content
   - breakpoint
   - ckeditor
   - color
-  - config
   - comment
-  - contextual
+  - config
   - contact
-  - menu_link_content
+  - contextual
+  - ctools
+  - ctools_block
   - datetime
-  - block_content
-  - quickedit
-  - editor
-  - help
-  - image
-  - menu_ui
-  - options
-  - path
-  - page_cache
-  - dynamic_page_cache
-  - taxonomy
   - dblog
-  - search
-  - shortcut
-  - toolbar
+  - devel
+  - dynamic_page_cache
+  - editor
+  - entity_reference_revisions
+  - field
   - field_ui
   - file
+  - filter
+  - help
+  - history
+  - image
+  - layout_discovery
+  - link
+  - menu_ui
+  - node
+  - options
+  - page_cache
+  - page_manager
+  - page_manager_ui
+  - panelizer
+  - panels
+  - panels_ipe
+  - path
+  - quickedit
   - rdf
-  - views
-  - views_ui
+  - search
+  - shortcut
+  - system
+  - taxonomy
+  - text
+  - toolbar
   - tour
-  - automated_cron
+  - update
+  - user
+  - views_ui
 themes:
   - bartik
   - seven
   - globant_corp_theme
+  - bootstrap
