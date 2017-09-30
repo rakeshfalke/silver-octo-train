@@ -55,6 +55,9 @@ dependencies:
   - update
   - user
   - views_ui
+  - menu_link_content
+  - views
+  - paragraphs
 themes:
   - bartik
   - seven

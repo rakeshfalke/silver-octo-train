@@ -8,7 +8,6 @@ effects:
       height: 325
       upscale: false
     weight: 1
-    uuid: cb842cc8-682f-42a6-bd05-5a1ac726f0d8
 langcode: en
 dependencies:
   module:
