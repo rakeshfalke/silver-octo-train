@@ -1,4 +1,3 @@
-uuid: 9f0b9992-02f0-4a3c-8e1e-68b092eccabd
 langcode: en
 status: true
 dependencies:
@@ -28,7 +27,6 @@ settings:
   max_resolution: 85x85
   min_resolution: ''
   default_image:
-    uuid: null
     alt: ''
     title: ''
     width: null
