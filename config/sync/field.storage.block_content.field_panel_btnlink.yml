@@ -1,10 +1,12 @@
-uuid: 606f674c-73c7-4c29-9cb7-e61a4a3a1937
+uuid: 4b7dfa9d-2c67-43f7-8d30-e17f189c320a
 langcode: en
 status: true
 dependencies:
   module:
     - block_content
     - link
+_core:
+  default_config_hash: jJKxYMZjNQX0SH810_h-a5yeN7_KjPxi9WvChkBsJ6w
 id: block_content.field_panel_btnlink
 field_name: field_panel_btnlink
 entity_type: block_content

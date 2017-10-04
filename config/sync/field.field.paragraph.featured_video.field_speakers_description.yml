@@ -1,10 +1,12 @@
-uuid: 631af503-ee8d-4ff9-810a-0aedb488537e
+uuid: dc5758c0-0bc7-4710-960a-049309697880
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_speakers_description
     - paragraphs.paragraphs_type.featured_video
+_core:
+  default_config_hash: AjcftPgAQwnQ2jXyQa3l5wGNd70QS1g9oGumFEwlz2I
 id: paragraph.featured_video.field_speakers_description
 field_name: field_speakers_description
 entity_type: paragraph

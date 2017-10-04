@@ -1,16 +1,14 @@
-uuid: cb5bbc41-d3c8-45fb-af49-38b58ed167a9
+uuid: 9c4efaf6-c5cf-4e3b-85b3-bf714b379895
 langcode: en
 status: true
 dependencies:
   config:
     - page_manager.page.converge
   content:
-    - 'block_content:converge_photos:fce70c46-dba4-4a27-8dc6-eceaae0f632d'
-    - 'block_content:featured_video:58d94027-95b2-4772-a9c3-b9cd2e5242a3'
-    - 'block_content:hero_block:5545bc9b-4c97-4f02-9013-8d20a5999cf6'
-    - 'block_content:simple_text:9873fc2d-f227-406c-bebd-dd6f4671709f'
-    - 'block_content:single_video:a29ad759-e971-442a-a9bd-65663f464645'
-    - 'block_content:speakers:be6270e2-5183-4aa4-9e69-09898111a0b6'
+    - 'block_content:hero_block:8655d97e-82ab-4a34-91ea-ed09a69a99f2'
+    - 'block_content:simple_text:62f0a83c-0d2f-4e8b-8dc6-0caf0403e845'
+    - 'block_content:single_video:bbc9c4af-ba6e-446a-86a3-30b30374dc4a'
+    - 'block_content:speakers:643dddfc-0dcb-4839-ba54-8a2a240e12d1'
   module:
     - block_content
 id: converge-block_display-0
@@ -18,8 +16,8 @@ label: 'Converge Page'
 variant: block_display
 variant_settings:
   blocks:
-    e708a330-5f39-4593-8b7b-a5f20fbf137e:
-      id: 'block_content:5545bc9b-4c97-4f02-9013-8d20a5999cf6'
+    4f0d930f-3781-40f2-8cf7-58aae7f6e4b3:
+      id: 'block_content:8655d97e-82ab-4a34-91ea-ed09a69a99f2'
       label: 'converge hero title'
       provider: block_content
       label_display: '0'
@@ -28,10 +26,22 @@ variant_settings:
       view_mode: full
       region: top
       weight: -10
-      uuid: e708a330-5f39-4593-8b7b-a5f20fbf137e
+      uuid: 4f0d930f-3781-40f2-8cf7-58aae7f6e4b3
       context_mapping: {  }
-    1768ede1-4871-4f29-bd8f-733e4a22331d:
-      id: 'block_content:a29ad759-e971-442a-a9bd-65663f464645'
+    13c1d1a0-fff3-4ba0-a6c0-9457e1ed6579:
+      id: 'block_content:62f0a83c-0d2f-4e8b-8dc6-0caf0403e845'
+      label: 'converge welcome'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: top
+      weight: -9
+      uuid: 13c1d1a0-fff3-4ba0-a6c0-9457e1ed6579
+      context_mapping: {  }
+    f0f2a0a0-68ad-4a30-b391-a19053e424fb:
+      id: 'block_content:bbc9c4af-ba6e-446a-86a3-30b30374dc4a'
       label: 'converge video'
       provider: block_content
       label_display: '0'
@@ -40,58 +50,22 @@ variant_settings:
       view_mode: full
       region: top
       weight: -8
-      uuid: 1768ede1-4871-4f29-bd8f-733e4a22331d
+      uuid: f0f2a0a0-68ad-4a30-b391-a19053e424fb
       context_mapping: {  }
-    bce5cbda-c16f-4770-bf63-e4197febf14b:
-      id: 'block_content:9873fc2d-f227-406c-bebd-dd6f4671709f'
-      label: 'converge text'
+    c05e2463-45ee-4e9f-8782-f60574de1f5c:
+      id: 'block_content:643dddfc-0dcb-4839-ba54-8a2a240e12d1'
+      label: 'converge speakers'
       provider: block_content
       label_display: '0'
       status: true
       info: ''
       view_mode: full
       region: top
-      weight: -9
-      uuid: bce5cbda-c16f-4770-bf63-e4197febf14b
-      context_mapping: {  }
-    de52f28d-e5ba-4294-8419-257736511c19:
-      id: 'block_content:be6270e2-5183-4aa4-9e69-09898111a0b6'
-      label: 'speakers 2017'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      region: top
-      weight: -7
-      uuid: de52f28d-e5ba-4294-8419-257736511c19
-      context_mapping: {  }
-    f6df93cb-c7af-4b0d-a378-3949bcc63f26:
-      id: 'block_content:58d94027-95b2-4772-a9c3-b9cd2e5242a3'
-      label: 'converge featured videos'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      region: top
-      weight: -6
-      uuid: f6df93cb-c7af-4b0d-a378-3949bcc63f26
-      context_mapping: {  }
-    68025704-c491-4e5d-ad21-0a5f38c2f2e1:
-      id: 'block_content:fce70c46-dba4-4a27-8dc6-eceaae0f632d'
-      label: 'converge gallery'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      region: top
-      weight: -5
-      uuid: 68025704-c491-4e5d-ad21-0a5f38c2f2e1
+      weight: 0
+      uuid: c05e2463-45ee-4e9f-8782-f60574de1f5c
       context_mapping: {  }
   id: block_display
-  uuid: 415c9d8f-7508-4c9b-bddc-77020bff92e3
+  uuid: 69fc0230-9117-4ee0-962c-4d4e89f265a3
   label: null
   weight: 0
   page_title: 'Converge 2017'

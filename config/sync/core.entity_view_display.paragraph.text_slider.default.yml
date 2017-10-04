@@ -1,0 +1,30 @@
+uuid: 7d44d08b-f25e-488b-a4bd-6b09c2b51928
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_slider.field_slide_title
+    - field.field.paragraph.text_slider.field_sub_title
+    - paragraphs.paragraphs_type.text_slider
+id: paragraph.text_slider.default
+targetEntityType: paragraph
+bundle: text_slider
+mode: default
+content:
+  field_slide_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_sub_title:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

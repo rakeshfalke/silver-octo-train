@@ -21,13 +21,15 @@
         "drupal-composer/drupal-scaffold": "^2.2",
         "drupal/admin_toolbar": "^1.20",
         "drupal/bootstrap": "^3.6",
+        "drupal/conditional_fields": "^1.0@alpha",
         "drupal/console": "^1.0.1",
         "drupal/core": "~8.0",
         "drupal/devel": "^1.0",
-        "drupal/layout_plugin": "^1.0@alpha",
+        "drupal/media_entity": "^1.6",
         "drupal/page_manager": "^4.0@beta",
         "drupal/panelizer": "^4.0",
         "drupal/paragraphs": "^1.2",
+        "drupal/video_embed_field": "^1.5",
         "drush/drush": "~8.0",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
@@ -77,6 +79,8 @@
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
+        },
+        "patches": {
         }
     }
 }

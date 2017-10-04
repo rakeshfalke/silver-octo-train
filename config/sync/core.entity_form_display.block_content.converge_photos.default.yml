@@ -1,4 +1,4 @@
-uuid: 39b6330f-e236-4362-a146-70b04580e83c
+uuid: 995104c4-7251-406e-90e0-bf9b45a2dfe1
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
   module:
     - link
     - paragraphs
+_core:
+  default_config_hash: S4csBDl8ExCfXiuZhVeMgnkIcmXLstGO5WAu0cy2xlU
 id: block_content.converge_photos.default
 targetEntityType: block_content
 bundle: converge_photos

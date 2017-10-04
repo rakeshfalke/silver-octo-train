@@ -1,14 +1,14 @@
-uuid: 7d5efe4f-42b4-4bc7-9f8a-6a9dee421dda
-name: 'Globant corporate'
+name: Globant
 mail: rakesh.falke@globant.com
-slogan: ''
+slogan: 'We Create Digital Journeys'
 page:
   403: ''
   404: ''
-  front: /node
+  front: /front
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
 default_langcode: en
 _core:
-  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
+  default_config_hash: pt3628G2zRJaSqstz3VXFYdrFTq47KIELW0h7TND0lI
+uuid: 688e0efb-f64f-481c-bafd-d2db384f0d23

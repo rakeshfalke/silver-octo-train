@@ -1,7 +1,9 @@
-uuid: 0a8f2d01-a08b-465b-8e1c-de82dceb414a
+uuid: 7f83abbf-a0f6-4779-be1f-a79b8f9d53b4
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: JNx9oNqIIsa4O7uamqADbZ_tNXPcItjK9QwDqSM1cLA
 id: single_video
 label: 'Single video'
 revision: 0

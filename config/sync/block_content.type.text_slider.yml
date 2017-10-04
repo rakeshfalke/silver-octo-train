@@ -1,0 +1,8 @@
+uuid: e6342515-db3b-47cf-9daf-5ec900b1c273
+langcode: en
+status: true
+dependencies: {  }
+id: text_slider
+label: 'Text slider'
+revision: 1
+description: 'Text slider with bg image or video'

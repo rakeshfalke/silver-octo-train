@@ -1,4 +1,4 @@
-uuid: 34cdac58-d03a-41dd-83f3-61a718b213b3
+uuid: 75dfcb0c-af99-405c-8471-7fc23adbc762
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_panel_btnlink
   module:
     - link
+_core:
+  default_config_hash: 9ha8dwtTiB-wGTH3Z-22p-ptLPEGfSUTNLdF52mC8q4
 id: block_content.featured_video.field_panel_btnlink
 field_name: field_panel_btnlink
 entity_type: block_content

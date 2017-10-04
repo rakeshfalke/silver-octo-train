@@ -1,4 +1,4 @@
-uuid: 30d2ec10-44dc-446f-b9ad-fdc7806f99b6
+uuid: 7212bcbc-d6b1-4c59-aa0d-08448858ac35
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_video_link
   module:
     - link
+_core:
+  default_config_hash: O5nQRZVAl2c9Yb0A5UGEtCPeXIoLCUO32HK1oj4Ew94
 id: block_content.single_video.field_video_link
 field_name: field_video_link
 entity_type: block_content

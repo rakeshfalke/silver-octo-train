@@ -1,7 +1,9 @@
-uuid: b7c14beb-e9cc-494a-9ad4-92d219c51923
+uuid: 75dbd170-3a4c-4cb4-afef-8e365a5c5bee
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: vKF0evkxS6bv5y3XXmcPLPJODLJEy_6Sboo6G4dJoKw
 id: featured_video
 label: 'Featured video'
 revision: 0

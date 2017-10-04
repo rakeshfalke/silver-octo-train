@@ -1,0 +1,108 @@
+uuid: 86ecd7df-795c-4969-b94b-19ec4a85b9c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.text_slider
+    - field.field.block_content.text_slider.body
+    - field.field.block_content.text_slider.field_background
+    - field.field.block_content.text_slider.field_bg_image
+    - field.field.block_content.text_slider.field_bg_video
+    - field.field.block_content.text_slider.field_slides
+    - image.style.thumbnail
+  module:
+    - conditional_fields
+    - image
+    - paragraphs
+    - text
+    - video_embed_field
+id: block_content.text_slider.default
+targetEntityType: block_content
+bundle: text_slider
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 4
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_background:
+    weight: 1
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_bg_image:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings:
+      conditional_fields:
+        aadb7a36-16ba-4278-8c60-20938aaab330:
+          dependee: field_background
+          settings:
+            state: visible
+            condition: checked
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              value: false
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: block_content
+          bundle: text_slider
+    type: image_image
+    region: content
+  field_bg_video:
+    weight: 3
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        9e746cea-6464-42d9-b20f-bd37e5e5480e:
+          dependee: field_background
+          settings:
+            state: visible
+            condition: '!checked'
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              value: 1
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: block_content
+          bundle: text_slider
+    type: video_embed_field_textfield
+    region: content
+  field_slides:
+    type: entity_reference_paragraphs
+    weight: 5
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

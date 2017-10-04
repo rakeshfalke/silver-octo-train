@@ -1,0 +1,22 @@
+uuid: 42a83a1f-ba37-4ea9-9d41-d0184fbb3ca2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.text_slider
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.text_slider.body
+field_name: body
+entity_type: block_content
+bundle: text_slider
+label: Description
+description: 'Bottom text example: We boost our client''s digital experience by ideating and creating the most innovative software products leveraging emerging technologies and trends. We are the place where INNOVATION, DESIGN, and ENGINEERING meet scale.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,7 +1,9 @@
-uuid: 637c7990-7ea3-4d45-b904-f2326328b213
+uuid: e68d1946-8b01-4ed6-abba-0cf67656ebe1
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: fvCI2RuM19MRsnZNRvjtQLu2pNnQUlRTue8QBc-OTps
 id: our_approach
 label: 'Our approach'
 description: 'Our approach page'

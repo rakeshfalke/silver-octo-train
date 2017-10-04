@@ -1,10 +1,12 @@
-uuid: 3d2dd893-5fb1-463b-8e09-f67c82d6a9f3
+uuid: 833cc6c9-b907-479f-a5d5-386834c13184
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.hero_block
     - field.storage.block_content.field_hero_sub_title
+_core:
+  default_config_hash: 6tLWrG1iYVRI4Wh9esHmF_SNQb3LJy5KhBgBU4OHxFM
 id: block_content.hero_block.field_hero_sub_title
 field_name: field_hero_sub_title
 entity_type: block_content

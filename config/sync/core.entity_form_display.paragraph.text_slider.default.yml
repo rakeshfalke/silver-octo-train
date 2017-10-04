@@ -1,0 +1,33 @@
+uuid: 1be0d7ee-3d31-4778-99ca-ba805e8ea87c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_slider.field_slide_title
+    - field.field.paragraph.text_slider.field_sub_title
+    - paragraphs.paragraphs_type.text_slider
+id: paragraph.text_slider.default
+targetEntityType: paragraph
+bundle: text_slider
+mode: default
+content:
+  field_slide_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_sub_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true
