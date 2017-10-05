@@ -1,9 +1,9 @@
-uuid: ca0f9a38-b6d5-4fb1-bfd5-cd05b80187bd
+uuid: e4e4f8a8-f2e2-4a56-970c-d2ca9ba8e418
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: xdEAiwXw9YZdyFFB-jeLE58FVf44nn91cRrNR0X_Opg
+  default_config_hash: 5VpawMrKPEPCkoO4YpPa0TDFO2dgiIHfTziJtwlmUxc
 id: html_yearless_date
 label: 'HTML Yearless date'
 locked: true

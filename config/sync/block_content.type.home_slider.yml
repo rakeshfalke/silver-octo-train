@@ -1,0 +1,8 @@
+uuid: 2b820e2f-1611-466e-a414-3988457bb17b
+langcode: en
+status: true
+dependencies: {  }
+id: home_slider
+label: 'Home Slider'
+revision: 1
+description: 'Home Slider block'

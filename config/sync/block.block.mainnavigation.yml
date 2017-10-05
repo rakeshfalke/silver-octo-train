@@ -1,4 +1,4 @@
-uuid: ae1ba23d-7688-4143-9f1c-ab1d148afff4
+uuid: 3742cfa2-f5fb-4eb4-864d-19192a32f64f
 langcode: en
 status: true
 dependencies:
@@ -8,8 +8,6 @@ dependencies:
     - system
   theme:
     - globant_corp_theme
-_core:
-  default_config_hash: T_nnvJtaitcTAzO1RuNQgm4ZGl6Kv_Ch6JoSDY1SKSI
 id: mainnavigation
 theme: globant_corp_theme
 region: navigation

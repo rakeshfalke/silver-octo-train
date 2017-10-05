@@ -1,4 +1,4 @@
-uuid: be0df33c-ac94-4a98-9a0a-a22ab5bd3a21
+uuid: 01f125b8-85f9-4a9b-be19-de6eb6f53b30
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,6 @@ dependencies:
     - paragraphs.paragraphs_type.converge_photo
   module:
     - image
-_core:
-  default_config_hash: TMOZ14XxWVMd49VtPMiaZnr8va6k7X77xH63cSCDDGg
 id: paragraph.converge_photo.field_photo
 field_name: field_photo
 entity_type: paragraph
@@ -30,6 +28,7 @@ settings:
   title_field: false
   title_field_required: false
   default_image:
+    uuid: ''
     alt: ''
     title: ''
     width: null

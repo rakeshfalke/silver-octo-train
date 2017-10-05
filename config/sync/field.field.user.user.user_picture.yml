@@ -1,4 +1,4 @@
-uuid: d237c5ae-0111-4bd4-ac13-2e296bf40bb2
+uuid: 9f0b9992-02f0-4a3c-8e1e-68b092eccabd
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
     - image
     - user
 _core:
-  default_config_hash: bDqBXzqkg8Ip5_wWyfjyE485lIaxfeCryTUNTssYgNA
+  default_config_hash: cL7i1kgJvlJa6H00f0E_fZ2KdD1ag0ASpLts0K-KNII
 id: user.user.user_picture
 field_name: user_picture
 entity_type: user
@@ -28,6 +28,7 @@ settings:
   max_resolution: 85x85
   min_resolution: ''
   default_image:
+    uuid: null
     alt: ''
     title: ''
     width: null

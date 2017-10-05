@@ -1,11 +1,11 @@
-uuid: f78778ac-996f-4c03-881e-62a078411e39
+uuid: e41e860b-403a-4d04-ad42-952ab6c158dd
 langcode: en
 status: true
 dependencies:
   theme:
     - bootstrap
 _core:
-  default_config_hash: oGqHrUMbjbVQtCp7rlo20IsJQ-5CMZaN68x7cATvREE
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
 id: bootstrap_local_tasks
 theme: bootstrap
 region: header

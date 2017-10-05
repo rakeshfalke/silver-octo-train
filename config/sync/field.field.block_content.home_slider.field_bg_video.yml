@@ -1,0 +1,23 @@
+uuid: 7a3bc25f-246f-4fd3-9a12-59a6bab24e28
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.home_slider
+    - field.storage.block_content.field_bg_video
+  module:
+    - link
+id: block_content.home_slider.field_bg_video
+field_name: field_bg_video
+entity_type: block_content
+bundle: home_slider
+label: 'BG Video'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

@@ -1,11 +1,9 @@
-uuid: c21bcf86-633d-47cc-8143-4dfa1595629d
+uuid: 2f614d10-a9d7-46ab-9ca2-d4e1737e7eed
 langcode: en
 status: true
 dependencies:
   module:
     - block_content
-_core:
-  default_config_hash: '-tk6mB72gRCQIq6BRu2fMPF2-7jLPL5twhDmndEbRTM'
 id: block_content.field_video_description
 field_name: field_video_description
 entity_type: block_content

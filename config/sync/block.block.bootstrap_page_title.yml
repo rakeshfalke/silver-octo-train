@@ -1,11 +1,11 @@
-uuid: a577542e-f5d1-45f2-850d-48f63f7ce413
+uuid: 1ce78086-c982-400a-8553-c29ec9cacb00
 langcode: en
 status: true
 dependencies:
   theme:
     - bootstrap
 _core:
-  default_config_hash: lgWJGXI3RFvxKLHyyLywsu7oQqX06TGMj5iWk1DLITw
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
 id: bootstrap_page_title
 theme: bootstrap
 region: header

@@ -1,12 +1,10 @@
-uuid: fe74bbea-08c2-445e-9e29-4d4c5d936c57
+uuid: 9bf6ec79-2624-4ad9-aca8-fbed74c10180
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_photo_caption_conv
     - paragraphs.paragraphs_type.converge_photo
-_core:
-  default_config_hash: '-DE6hjDoPKkLJ5PnMCaqY_m9JRKbh60agtApti1Hi6c'
 id: paragraph.converge_photo.field_photo_caption_conv
 field_name: field_photo_caption_conv
 entity_type: paragraph

@@ -1,11 +1,14 @@
 cdn_provider: ''
 _core:
-  default_config_hash: bgfk94Aut82ixCzAWO62fhr2EoSM8e8ninqW3cQ7Y98
+  default_config_hash: _5qrDuRmWmRVjW00si3U1s1NrgrocA4N653EYGRfgEE
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
-  url: 'http://corp.globant.dev/themes/contrib/bootstrap/favicon.ico'
+  url: 'http://corp.globant.dev/themes/custom/globant_corp_theme/favicon.ico'
   use_default: true
+schemas:
+  bootstrap: 8000
+  globant_corp_theme: 8000
 features:
   comment_user_picture: true
   comment_user_verification: true
@@ -15,6 +18,6 @@ logo:
   path: ''
   url: ''
   use_default: true
-schemas:
-  bootstrap: 8000
-  globant_corp_theme: 8000
+fluid_container: 1
+table_responsive: '-1'
+table: ''

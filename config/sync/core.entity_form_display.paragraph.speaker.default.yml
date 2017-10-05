@@ -1,4 +1,4 @@
-uuid: 40295e9a-7dee-49f2-be0a-932768aa9d9d
+uuid: 1911b8a9-932c-4ad6-8ef0-0f9b637fecd9
 langcode: en
 status: true
 dependencies:
@@ -11,8 +11,6 @@ dependencies:
     - paragraphs.paragraphs_type.speaker
   module:
     - image
-_core:
-  default_config_hash: 0Z5M0EG6MFH-B83JAZbILG4IbQ2-Bcr-FXk4tYh0mIA
 id: paragraph.speaker.default
 targetEntityType: paragraph
 bundle: speaker

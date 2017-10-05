@@ -1,4 +1,4 @@
-uuid: c9abd4d6-9674-403b-9084-eec2c59657b2
+uuid: abe2a1f9-8967-4c27-b257-2f63d98868d0
 langcode: en
 status: true
 dependencies:
@@ -8,8 +8,6 @@ dependencies:
     - paragraphs.paragraphs_type.speaker
   module:
     - entity_reference_revisions
-_core:
-  default_config_hash: 78OmaLZXF0ua2SWwJn9uKhCtTTSgmc1Oh-hX94zTZzY
 id: block_content.speakers.field_speaker
 field_name: field_speaker
 entity_type: block_content

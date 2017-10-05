@@ -1,0 +1,33 @@
+uuid: 1d7729f9-4e06-4031-8b52-cbb1812d73d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.home_slider.field_slide_sub_title
+    - field.field.paragraph.home_slider.field_slide_title
+    - paragraphs.paragraphs_type.home_slider
+id: paragraph.home_slider.default
+targetEntityType: paragraph
+bundle: home_slider
+mode: default
+content:
+  field_slide_sub_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_slide_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

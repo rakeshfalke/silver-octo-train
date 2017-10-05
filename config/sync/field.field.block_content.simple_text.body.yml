@@ -1,4 +1,4 @@
-uuid: 48722c8a-4798-4a52-b152-45deef210696
+uuid: d25c92b1-69d3-469d-8602-a22adedd2107
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,6 @@ dependencies:
     - field.storage.block_content.body
   module:
     - text
-_core:
-  default_config_hash: mGBHCm9C9qOqB-0Az7FuJtlUYDmSuRkf4ivmOt2OyRI
 id: block_content.simple_text.body
 field_name: body
 entity_type: block_content

@@ -1,4 +1,4 @@
-uuid: f7b68fe8-9c3f-47a4-ad4d-b7673f6f6d94
+uuid: ef3cd825-1b1b-437a-a31b-9f7eabb60312
 langcode: en
 status: true
 dependencies:
@@ -8,8 +8,6 @@ dependencies:
     - paragraphs.paragraphs_type.featured_video
   module:
     - entity_reference_revisions
-_core:
-  default_config_hash: TEKnN5qn4bWy11lreU-Xi-16MThcyLvCU8lCLHQpGco
 id: block_content.featured_video.field_featured_video
 field_name: field_featured_video
 entity_type: block_content

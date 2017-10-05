@@ -1,0 +1,37 @@
+uuid: 5b96e5e0-e802-4fa3-a08a-02dc0a26bc3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.home_page
+  content:
+    - 'block_content:home_slider:e85edef9-b38c-4e46-9237-b73243cb04e9'
+  module:
+    - block_content
+id: home_page-block_display-0
+label: 'Home Page'
+variant: block_display
+variant_settings:
+  blocks:
+    958b4ce0-2907-4a56-ba98-f7c89fded810:
+      id: 'block_content:e85edef9-b38c-4e46-9237-b73243cb04e9'
+      label: 'Home Page Slider'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: top
+      weight: 0
+      uuid: 958b4ce0-2907-4a56-ba98-f7c89fded810
+      context_mapping: {  }
+  id: block_display
+  uuid: 0a7e7f26-8980-4768-a119-6e9d820449db
+  label: null
+  weight: 0
+  page_title: 'We Create Digital Journeys'
+page: home_page
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

@@ -1,9 +1,7 @@
-uuid: 1a1c4106-52f5-44da-a9c4-140c03ae4527
+uuid: 28342e00-33ff-4320-9e15-5fea627830ad
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: cXmMBDPqJULHLHrzzUimpSvD9hvyZ1HW3fwJhr5zT1A
 id: speakers
 label: Speakers
 revision: 0

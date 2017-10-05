@@ -1,4 +1,4 @@
-uuid: 0dd66f5c-27b9-4c7e-a429-67a14efcd55f
+uuid: 08e32be4-7efc-4a6b-b829-a20689bdef96
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
     - node.type.article
     - taxonomy.vocabulary.tags
 _core:
-  default_config_hash: Q7RzSRw5lMxDCqhOhbaZwRpOfm-XOs4jAo6rj4wVbgw
+  default_config_hash: QdUgf_beeoaPiyKorFv0q1fcJpWH_uZTqe_xoVJacrw
 id: node.article.field_tags
 field_name: field_tags
 entity_type: node

@@ -1,4 +1,4 @@
-uuid: 1b815ff4-57f9-43c5-af9a-154375127a03
+uuid: 4dd449df-371f-4775-abaf-eff81259884b
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,6 @@ dependencies:
     - block_content
     - entity_reference_revisions
     - paragraphs
-_core:
-  default_config_hash: HSSzRAfieA46tMjr3JFzLwC5eRrXHsorFunX0zG2ZAI
 id: block_content.field_featured_video
 field_name: field_featured_video
 entity_type: block_content

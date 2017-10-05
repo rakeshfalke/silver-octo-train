@@ -1,4 +1,4 @@
-uuid: 218119a7-3625-49c9-814f-9653d1bf4265
+uuid: 6616425f-ee7e-4b1c-91e4-04fc4c8c8b0a
 langcode: en
 status: true
 dependencies:
@@ -8,8 +8,6 @@ dependencies:
     - paragraphs.paragraphs_type.converge_photo
   module:
     - entity_reference_revisions
-_core:
-  default_config_hash: 3b1kRzRYV7_L2lS8MZ4JKXEzk_5jb5Nqvger1JjhhaU
 id: block_content.converge_photos.field_converge_photo_gallery
 field_name: field_converge_photo_gallery
 entity_type: block_content

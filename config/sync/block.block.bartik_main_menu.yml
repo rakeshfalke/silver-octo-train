@@ -1,4 +1,4 @@
-uuid: f60ce82e-7272-4699-94bd-cb78f3c86ecd
+uuid: 909f120f-1ad7-4622-9e63-71055918c49a
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
   theme:
     - bartik
 _core:
-  default_config_hash: BInAQoyAf9UwpqUl80eandetqEUrB9U3a1t9kSuYAXo
+  default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
 id: bartik_main_menu
 theme: bartik
 region: primary_menu
