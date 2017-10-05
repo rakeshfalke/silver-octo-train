@@ -1,12 +1,10 @@
-uuid: fc5c75f6-9e2e-4936-914f-1d489bfb495c
+uuid: 85386375-8982-46c1-ba03-601b10e3f244
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_company
     - paragraphs.paragraphs_type.speaker
-_core:
-  default_config_hash: QUuKZgRDs3C8Xh6baM-3L3sJTvlPce1bTg3Txj7KBDQ
 id: paragraph.speaker.field_company
 field_name: field_company
 entity_type: paragraph

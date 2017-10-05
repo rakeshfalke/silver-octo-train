@@ -1,4 +1,4 @@
-uuid: cbff92c0-f6a4-4806-b091-f59c021c83f3
+uuid: 4c103ac9-e4fe-4664-a963-1606c26384b6
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,6 @@ dependencies:
     - field.field.block_content.speakers.field_speaker
   module:
     - entity_reference_revisions
-_core:
-  default_config_hash: jqjwdSyMJgzqcbnS2oxaSs2-aLmHDUtK1knwrKENkA0
 id: block_content.speakers.default
 targetEntityType: block_content
 bundle: speakers

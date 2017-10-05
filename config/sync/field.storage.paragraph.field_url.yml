@@ -1,12 +1,10 @@
-uuid: be0372eb-daa0-40b6-8b8b-b4fb7a4218c9
+uuid: f33428c8-1f4d-40be-b047-2957cfa31400
 langcode: en
 status: true
 dependencies:
   module:
     - link
     - paragraphs
-_core:
-  default_config_hash: qadmik-JYJ4xzKtNvLo9pyieX59jfxdSB8LHF9xOqTI
 id: paragraph.field_url
 field_name: field_url
 entity_type: paragraph

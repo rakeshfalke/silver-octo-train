@@ -7,13 +7,20 @@
 // Font-Awesome
 @import '../node_modules/font-awesome/scss/font-awesome';
 
+@import '../node_modules/slick-carousel/slick/slick.scss';
+@import '../node_modules/slick-carousel/slick/slick-theme.scss';
+
 // Base-theme overrides.
 @import 'overrides';
 
 //Blocks
 @import 'component/blocks/block-converge-photos';
 @import 'component/blocks/block-featured-video';
+@import 'component/blocks/block-text-slider';
+@import 'component/blocks/block-hero-block';
+
 
 // Paragraphs
 @import 'component/paragraphs/paragraph-converge-photo';
 @import 'component/paragraphs/paragraph-featured-video';
+@import 'component/paragraphs/paragraph-text-slider';

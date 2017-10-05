@@ -7,12 +7,14 @@ dependencies:
   - admin_toolbar
   - admin_toolbar_tools
   - automated_cron
+  - backup_migrate
   - block
   - block_content
   - breakpoint
   - ckeditor
   - color
   - comment
+  - conditional_fields
   - config
   - contact
   - contextual
@@ -23,16 +25,20 @@ dependencies:
   - devel
   - dynamic_page_cache
   - editor
+  - entity
   - entity_reference_revisions
   - field
+  - field_group
   - field_ui
   - file
   - filter
+  - hal
   - help
   - history
   - image
   - layout_discovery
   - link
+  - media_entity
   - menu_ui
   - node
   - options
@@ -45,7 +51,10 @@ dependencies:
   - path
   - quickedit
   - rdf
+  - react_quickstart
+  - responsive_image
   - search
+  - serialization
   - shortcut
   - system
   - taxonomy
@@ -54,6 +63,8 @@ dependencies:
   - tour
   - update
   - user
+  - video_embed_field
+  - video_embed_media
   - views_ui
   - menu_link_content
   - views

@@ -1,4 +1,4 @@
-uuid: dcae18dd-2327-4595-852e-64e5367a1a78
+uuid: ba7d4644-64c2-4ae2-8660-052446e6a801
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,6 @@ dependencies:
     - block_content
     - file
     - image
-_core:
-  default_config_hash: 85zfk2kFo800dNoVHlgwyFWS28sWK88JtFwVxnhyP5Q
 id: block_content.field_hero_image
 field_name: field_hero_image
 entity_type: block_content
@@ -15,6 +13,7 @@ type: image
 settings:
   uri_scheme: public
   default_image:
+    uuid: ''
     alt: ''
     title: ''
     width: null

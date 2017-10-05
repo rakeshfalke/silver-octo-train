@@ -1,11 +1,11 @@
-uuid: 2d74ca39-466c-4dde-ad7d-39b32da437e0
+uuid: 067a39cf-c844-460c-99a9-0f1fae777db7
 langcode: en
 status: true
 dependencies:
   module:
     - node
 _core:
-  default_config_hash: AExGs2FTT4RHLSRoXSNVQ-KKbnoFXRBrK1yHnwkzJPQ
+  default_config_hash: Zx0jD1Klh5tZaGJy8uOeR_2MCu9FDM4xg7TaUJUEbkI
 id: node_delete_action
 label: 'Delete content'
 type: node

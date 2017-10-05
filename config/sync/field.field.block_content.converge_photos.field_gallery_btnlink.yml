@@ -1,4 +1,4 @@
-uuid: 6bf3dee2-e471-4d5b-b2b3-87c920fc053b
+uuid: e221290d-1dfa-4f3d-a16c-e1625556b6dd
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,6 @@ dependencies:
     - field.storage.block_content.field_gallery_btnlink
   module:
     - link
-_core:
-  default_config_hash: cwYJHU_DTuvKliy8Gdpw6aWT8aUG-MphBfwhnJ9REZg
 id: block_content.converge_photos.field_gallery_btnlink
 field_name: field_gallery_btnlink
 entity_type: block_content

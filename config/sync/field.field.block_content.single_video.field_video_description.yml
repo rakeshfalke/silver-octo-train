@@ -1,12 +1,10 @@
-uuid: f7ac70b0-f8ff-43af-b8b0-d2e50b055e2a
+uuid: ccdd5d54-8ca8-4e09-a2cb-47174af6f054
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.single_video
     - field.storage.block_content.field_video_description
-_core:
-  default_config_hash: '-gvgyec_jK15Ork-U8ppbcTaRwTd1DNrU4hgzW_jiIQ'
 id: block_content.single_video.field_video_description
 field_name: field_video_description
 entity_type: block_content

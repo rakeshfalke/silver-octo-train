@@ -55,19 +55,17 @@
     'row',
   ]
 %}
-<section{{ attributes.addClass(classes) }}>
+<section{{ attributes.addClass(classes) }} style="background-image: url('{{ file_url(content.field_hero_image.0['#item'].entity.uri.value) }}');">
   {{ title_prefix }}
   {% if label %}
     <h2{{ title_attributes.addClass('block-title') }}>{{ label }}</h2>
   {% endif %}
   {{ title_suffix }}
   {% block content %}
-    <div style="background-image: url('{{ file_url(content.field_hero_image.0['#item'].entity.uri.value) }}');">
       <h1 class="blown-up">{{ content.field_hero_title }}</h1>
       {% if content.field_hero_sub_title is not empty %}
         <p>{{ content.field_hero_sub_title }}</p>
       {% endif %}
-    </div>
   {% endblock %}
 </section>
 

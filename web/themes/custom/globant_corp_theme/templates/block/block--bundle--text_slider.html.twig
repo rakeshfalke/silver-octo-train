@@ -1,0 +1,25 @@
+{% extends "block--bare.html.twig" %}
+{#
+/**
+ * @file
+ * Theme override for local actions (primary admin actions.)
+ *
+ * @ingroup templates
+ */
+#}
+{% block content %}
+  <section class="video-hero row js-header is-loaded">
+    {% if content %}
+    {{ content.field_bg_video }}
+
+    <div class="slick-slider">
+      {{ content.field_slides }}
+
+    </div>
+   <div class="process">
+      {{ content.body }}
+   </div>
+
+    {% endif %}
+  </section>
+{% endblock %}

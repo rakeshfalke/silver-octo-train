@@ -1,11 +1,9 @@
-uuid: 209557b8-5b19-4410-85c9-a8003ba7db64
+uuid: 3b2d5f20-090b-47b7-912a-64c0f8634d1f
 langcode: en
 status: true
 dependencies:
   module:
     - block_content
-_core:
-  default_config_hash: 80GtvIhB5xAs-vvUP8lzOZ05x9eIvUT_24K9d1PxrqU
 id: block_content.field_hero_sub_title
 field_name: field_hero_sub_title
 entity_type: block_content

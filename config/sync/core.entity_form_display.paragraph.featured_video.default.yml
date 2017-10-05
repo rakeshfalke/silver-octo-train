@@ -1,4 +1,4 @@
-uuid: 0b0104bc-fb9f-45be-9152-36d521694648
+uuid: be9a9a41-50cb-486d-8f91-1605bb3a33d2
 langcode: en
 status: true
 dependencies:
@@ -12,8 +12,6 @@ dependencies:
   module:
     - image
     - link
-_core:
-  default_config_hash: lGmLqdt5ntM8-oM2zkiVtGmmf7sq9kOwTskK4ZT9GWY
 id: paragraph.featured_video.default
 targetEntityType: paragraph
 bundle: featured_video

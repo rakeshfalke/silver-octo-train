@@ -1,0 +1,4 @@
+globant_corp.front_page:
+  title: 'Home'
+  route_name: '<front>'
+  menu_name: main

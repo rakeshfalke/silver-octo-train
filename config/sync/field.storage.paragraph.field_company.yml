@@ -1,11 +1,9 @@
-uuid: 47da4eb9-393e-461b-872e-dc536a7a9dd9
+uuid: 3f9fa1a9-827d-41b1-8e85-914d11e05688
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
-_core:
-  default_config_hash: wA1xDGUCK4FCJOo4BTan5rxsMFhsRY8bOwGHsLBClCM
 id: paragraph.field_company
 field_name: field_company
 entity_type: paragraph

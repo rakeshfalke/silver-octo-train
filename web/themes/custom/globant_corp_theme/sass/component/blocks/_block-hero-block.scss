@@ -1,0 +1,33 @@
+.internal-hero{
+  position: relative;
+  padding: 180px 0 0;
+  max-height: 454px;
+  height: 454px;
+  background-size: cover;
+  background-color: #272727;
+  background-position: top center;
+  background-repeat: no-repeat;
+
+  h1{
+    color: #fff;
+    width: 100%;
+    position: relative;
+    z-index: 4;
+    font-family: "Conv_NexaBlack";
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  p{
+    position: relative;
+    width: 100%;
+    font-family: "Conv_Nexa-Bold";
+    font-size: 1.875em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    z-index: 10;
+    max-width: 80%;
+    margin: 80px auto 0;
+  }
+}

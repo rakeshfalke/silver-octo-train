@@ -1,9 +1,0 @@
-uuid: 6a81fa19-89c9-4212-a642-0342afab8e2c
-langcode: en
-status: true
-dependencies: {  }
-id: text_slider
-label: 'Text Slider'
-icon_uuid: null
-description: 'Text Slider with background image or video'
-behavior_plugins: {  }

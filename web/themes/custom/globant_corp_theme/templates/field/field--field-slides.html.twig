@@ -1,0 +1,15 @@
+{%
+  set classes = [
+    'slider',
+    'clearfix',
+    'paragraph-text-slider',
+  ]
+%}
+
+<div{{ attributes.addClass(classes) }}>
+  {% if items|length > 0 %}
+    {% for item in items %}
+      <div>{{ item.content }}</div>
+    {% endfor %}
+  {% endif %}
+</div>

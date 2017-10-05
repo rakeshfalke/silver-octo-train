@@ -1,4 +1,4 @@
-uuid: 5a3f4d55-97aa-4aef-957a-cd1eb2cf8084
+uuid: 5cec7f56-16f8-4bb1-83c4-4ab66024dacc
 langcode: en
 status: true
 dependencies:
@@ -10,8 +10,6 @@ dependencies:
     - image.style.thumbnail
   module:
     - image
-_core:
-  default_config_hash: pA02d7sIyOE7QStJL-ESSuRUF2HC3hxOemy9tmxXZiE
 id: block_content.hero_block.default
 targetEntityType: block_content
 bundle: hero_block

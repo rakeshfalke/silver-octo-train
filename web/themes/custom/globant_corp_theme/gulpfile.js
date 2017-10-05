@@ -25,15 +25,15 @@ var settings = {
     },
     prod: {
       name: 'PRODUCTION',
-      assetsBasePath: '//d3rfyrntdtutvw.cloudfront.net'
+      assetsBasePath: ''
     },
     qc: {
       name: 'QC',
-      assetsBasePath: '//durpv811fknlu.cloudfront.net'
+      assetsBasePath: ''
     },
     uat: {
       name: 'UAT',
-      assetsBasePath: '//durpv811fknlu.cloudfront.net'
+      assetsBasePath: ''
     }
   },
   currentEnv: {}
@@ -59,12 +59,12 @@ var paths = {
   scripts: {
     input: [
       // Libraries
-      'node_modules/slick-carousel/slick/slick.js',
-      'node_modules/jquery-validation/dist/jquery.validate.js',
+/*      'node_modules/slick-carousel/slick/slick.js',
+      'node_modules/jquery-validation/dist/jquery.validate.js',*/
       // Modules
       'js/modules/lazyload.js',
       // Others
-      'js/globant-corp.js' // TODO: Split this file into smaller modules
+      'js/globantSliders.js' // TODO: Split this file into smaller modules
     ],
     output: 'dist/',
     outputFilename: 'globant-corp.main.js'

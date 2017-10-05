@@ -1,0 +1,9 @@
+{% if items|length > 0 %}
+  {% for item in items %}
+    <video preload="none" poster="https://www.globant.com/sites/all/themes/globant/images/mock/video-poster.png" loop="" muted="" id="hero-video" class="video-playing video-js" autoplay="autoplay">
+      <source src="{{ item.content['#url'].uri }}" type="video/mp4">
+      Your browser does not support the video tag.
+  </video>
+  {% endfor %}
+{% endif %}
+

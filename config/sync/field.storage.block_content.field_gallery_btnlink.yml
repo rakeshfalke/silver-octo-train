@@ -1,12 +1,10 @@
-uuid: 67beaaf2-e03d-4e25-ad47-83a91f3b4542
+uuid: 23e1d55f-5ea9-4491-bb4d-49e6fc7ae130
 langcode: en
 status: true
 dependencies:
   module:
     - block_content
     - link
-_core:
-  default_config_hash: L0sDeGFLU87437kTnpqJ3hSWp-0KliLQpAoHz-pO_Dc
 id: block_content.field_gallery_btnlink
 field_name: field_gallery_btnlink
 entity_type: block_content
