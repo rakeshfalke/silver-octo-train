@@ -1,4 +1,4 @@
-uuid: fe7aa88a-7e18-43b8-8625-3bdca27d9762
+uuid: 12a34ec2-e7a1-4100-aade-5a1f247cd3a1
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.featured_video
   module:
     - image
+_core:
+  default_config_hash: Yv4DlA0vnA25bQD718PiraJ8a0sSWf8JXh2hbRc2mlc
 id: paragraph.featured_video.field_video_image
 field_name: field_video_image
 entity_type: paragraph
@@ -28,7 +30,6 @@ settings:
   title_field: false
   title_field_required: false
   default_image:
-    uuid: ''
     alt: ''
     title: ''
     width: null

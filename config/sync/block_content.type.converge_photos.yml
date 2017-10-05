@@ -1,7 +1,9 @@
-uuid: 0466f7b4-b3b7-461d-96d2-1dc540816efe
+uuid: fe38ce03-bd5e-4a8e-bd2e-a13e0b533a64
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 13jjrSy7K48HDhNZOs-bnHWSp7PtpzchQrfX1AIgQ5o
 id: converge_photos
 label: 'Converge Photos'
 revision: 0

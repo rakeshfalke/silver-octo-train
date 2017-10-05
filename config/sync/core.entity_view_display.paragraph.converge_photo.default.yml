@@ -1,4 +1,4 @@
-uuid: 14294372-4097-4fa4-a58b-eb44836137b9
+uuid: 293955d1-cd3d-49cf-af4e-f5cc658f754d
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.converge_photo
   module:
     - image
+_core:
+  default_config_hash: Z8gVJtRFq0uELbfz8aXbP91hZT_il6MCTeZxBXRjGzE
 id: paragraph.converge_photo.default
 targetEntityType: paragraph
 bundle: converge_photo

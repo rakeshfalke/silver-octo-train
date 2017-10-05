@@ -1,9 +1,11 @@
-uuid: c825f902-066e-4dea-ab15-e0372e45bb1c
+uuid: 426fc27b-7116-43f4-ae82-4d03c2425912
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: p_1YBNI1gcDFoNlUJdvJAs7hMQc3PdagBIU1zeZg9oU
 id: paragraph.field_photo_caption_conv
 field_name: field_photo_caption_conv
 entity_type: paragraph

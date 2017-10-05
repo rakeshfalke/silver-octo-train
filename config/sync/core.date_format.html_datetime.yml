@@ -1,9 +1,9 @@
-uuid: bba76e1a-41b5-4112-9685-2ad376c4286f
+uuid: c4329f34-ea3e-44c8-885b-8dfa2af9114a
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: jxfClwZIRXIdcvMrE--WkcZxDGUVoOIE3Sm2NRZlFuE
+  default_config_hash: ABc3OjH8HJFXHmtC-3HOL87byzpKOOc1qBj0fWQNbNA
 id: html_datetime
 label: 'HTML Datetime'
 locked: true

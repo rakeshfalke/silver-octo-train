@@ -1,4 +1,4 @@
-uuid: 289448f1-e926-49d0-9e26-6f3746b87f44
+uuid: 60863e54-7cb4-4e7e-9f81-81b68a785bd1
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
   module:
     - entity_reference_revisions
     - link
+_core:
+  default_config_hash: 2CKUwpJFTdThOyLEKOUMSzlT9nwsPjA-nHvzR7_A7Gg
 id: block_content.converge_photos.default
 targetEntityType: block_content
 bundle: converge_photos

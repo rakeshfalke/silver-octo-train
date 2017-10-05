@@ -1,13 +1,11 @@
-uuid: 4c1afe43-10e9-49fe-8505-3e243219493f
+uuid: 93f90803-0f7f-45a4-94f0-510981cb696b
 langcode: en
 status: true
 dependencies:
   config:
     - page_manager.page.our_approach
-  content:
-    - 'block_content:hero_block:c01d22cb-a649-427b-98f5-b884334c3588'
-  module:
-    - block_content
+_core:
+  default_config_hash: iCorad0V-e8F1gK89aKywnpzffJp8GihH-ed7ekHk8U
 id: our_approach-block_display-0
 label: 'Our approach page'
 variant: block_display
@@ -23,13 +21,12 @@ variant_settings:
       view_mode: full
       region: top
       weight: 0
-      uuid: d8e66ef6-a120-4e3a-beec-522cd9ebe154
       context_mapping: {  }
   id: block_display
-  uuid: 69a00ef7-2129-41f3-8572-c002b3b3c7f4
   label: null
   weight: 0
   page_title: 'Our approach'
+  uuid: 3e88a030-607a-49aa-a380-723974e0c301
 page: our_approach
 weight: 0
 selection_criteria: {  }

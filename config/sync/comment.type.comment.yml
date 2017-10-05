@@ -1,9 +1,9 @@
-uuid: c2f39fb4-b0ef-4a81-a1ea-aafcdd1a21b9
+uuid: e03aaab3-4544-41fd-9269-840d35ecfc6d
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: bqZsN31T2n0UjcbyCpOPi9D2iO0sAOHR7FnEs9qMvaA
+  default_config_hash: d3nkeqPwbzJClsIwQ2EeuQ0KqZ9S-cjRE6y-rLexDwk
 id: comment
 label: 'Default comments'
 target_entity_type_id: node

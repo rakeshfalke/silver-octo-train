@@ -1,4 +1,4 @@
-uuid: 43d43bce-ca29-4a64-b77c-2bce72e0a483
+uuid: 6f4e7c0f-8ba8-4160-ad66-1b416d52f2ce
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - block_content
     - entity_reference_revisions
     - paragraphs
+_core:
+  default_config_hash: XW1pblafPMVdkjWSdweLfwJjEZ2WeXNFz6523bYnyh8
 id: block_content.field_speaker
 field_name: field_speaker
 entity_type: block_content

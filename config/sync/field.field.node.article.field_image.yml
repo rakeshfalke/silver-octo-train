@@ -1,4 +1,4 @@
-uuid: d8c06e6c-39ab-4bce-9269-3508be32b0ee
+uuid: 89b88a06-da1c-466e-9bb6-a6b71865e41b
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
   module:
     - image
 _core:
-  default_config_hash: tgJzhA7Swh4M_gWU5FwFe5lPxPj5rebpMbvhpdNrERs
+  default_config_hash: TzEkIrYq8mSN3_HFI39xOLyju-hY62WyiZs027aqpYk
 id: node.article.field_image
 field_name: field_image
 entity_type: node
@@ -30,7 +30,6 @@ settings:
   alt_field_required: true
   title_field_required: false
   default_image:
-    uuid: null
     alt: ''
     title: ''
     width: null

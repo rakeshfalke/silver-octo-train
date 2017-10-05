@@ -1,4 +1,4 @@
-uuid: 4c357393-aebb-45a7-bc66-37fd88d86a94
+uuid: 37f1345e-e2b1-422e-8dbd-0fc33e30aa4b
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
   theme:
     - bootstrap
 _core:
-  default_config_hash: GT_zYl7I9VAILH8OxMRe-VDvFadCDHxRcnmBc5xEmf0
+  default_config_hash: YDjrwgXua6OuKdHr8Tij-bZQ6fucF6fCmzQ0jI6ctS8
 id: bootstrap_main_menu
 theme: bootstrap
 region: navigation_collapsible

@@ -1,10 +1,12 @@
-uuid: 97d358b1-8c37-45a3-b4d0-134d371d5778
+uuid: 31c6da11-60fc-4cb3-95ba-314b65fd4b94
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_title
     - paragraphs.paragraphs_type.featured_video
+_core:
+  default_config_hash: krN68mH_1Jfif4h2Cs0Ow_UYZFu43qShYkQi7hsKKD0
 id: paragraph.featured_video.field_title
 field_name: field_title
 entity_type: paragraph

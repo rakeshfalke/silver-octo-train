@@ -1,7 +1,9 @@
-uuid: 0359121c-637f-45d9-9747-43660b94d49d
+uuid: eaefa34b-6e49-4b91-ad6a-6039cb902254
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: SbYU-tvroZanO-76Krcs-4KAO4JEDOUH4lIVjTEmnG0
 id: featured_video
 label: 'Featured Video'
 icon_uuid: null

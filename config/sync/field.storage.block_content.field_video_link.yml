@@ -1,10 +1,12 @@
-uuid: 52de7c54-5190-4cba-bb1e-c112c80c902e
+uuid: 8aed08fc-1f15-4e4d-8050-3c4981dba6b8
 langcode: en
 status: true
 dependencies:
   module:
     - block_content
     - link
+_core:
+  default_config_hash: uJVx9KK3_uvUe4YJpStFfvf5kbzKU2aeticPlitJWiE
 id: block_content.field_video_link
 field_name: field_video_link
 entity_type: block_content

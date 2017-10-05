@@ -1,4 +1,4 @@
-uuid: a8a427da-5cec-4d2a-aee6-552090e15679
+uuid: bd6f89cc-7f1b-4ca7-9081-fffc1dbf6780
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
     - field.field.block_content.hero_block.field_hero_title
   module:
     - image
+_core:
+  default_config_hash: Kt3ySfwz5ENRyWDgDdPPe1fz6S4auuwTdctbaVaV3G0
 id: block_content.hero_block.default
 targetEntityType: block_content
 bundle: hero_block

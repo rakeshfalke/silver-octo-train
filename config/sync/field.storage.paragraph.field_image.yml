@@ -1,4 +1,4 @@
-uuid: afa428c3-8369-4e37-9f33-b4b361c6d9cd
+uuid: 2f358df4-0302-4b28-9f21-62f66e631046
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - file
     - image
     - paragraphs
+_core:
+  default_config_hash: TQ2hBF1RsfU9VZcY5XcMN8qmd73VNvEhZQfR6ip7yDU
 id: paragraph.field_image
 field_name: field_image
 entity_type: paragraph
@@ -13,7 +15,6 @@ type: image
 settings:
   uri_scheme: public
   default_image:
-    uuid: ''
     alt: ''
     title: ''
     width: null

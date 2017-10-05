@@ -1,4 +1,4 @@
-uuid: 19757f55-79ea-4435-93c2-159a78053cd3
+uuid: c053eb6b-8398-4b5c-bfbb-188544a646f6
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ dependencies:
   module:
     - image
     - link
+_core:
+  default_config_hash: hHY3PK4F2VySgFzLa72T-IQCixjXjBYvciyIvumoBrQ
 id: block_content.single_video.default
 targetEntityType: block_content
 bundle: single_video
