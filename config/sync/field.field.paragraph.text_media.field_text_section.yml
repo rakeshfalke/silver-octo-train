@@ -1,0 +1,19 @@
+uuid: 52fcfe39-5f92-46df-9d08-1860a844a982
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_section
+    - paragraphs.paragraphs_type.text_media
+id: paragraph.text_media.field_text_section
+field_name: field_text_section
+entity_type: paragraph
+bundle: text_media
+label: 'Text Section'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

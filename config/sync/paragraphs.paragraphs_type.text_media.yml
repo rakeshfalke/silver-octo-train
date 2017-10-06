@@ -1,0 +1,9 @@
+uuid: 848269ef-6bdf-49c9-b333-104abdc48e17
+langcode: en
+status: true
+dependencies: {  }
+id: text_media
+label: 'Text Media'
+icon_uuid: null
+description: 'Text Media Paragraphs'
+behavior_plugins: {  }

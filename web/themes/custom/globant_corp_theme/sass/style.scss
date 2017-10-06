@@ -6,6 +6,9 @@
 
 // Font-Awesome
 @import '../node_modules/font-awesome/scss/font-awesome';
+@import 'component/helpers/colors';
+@import 'component/helpers/fonts';
+@import 'component/helpers/variables';
 
 @import '../node_modules/slick-carousel/slick/slick.scss';
 @import '../node_modules/slick-carousel/slick/slick-theme.scss';

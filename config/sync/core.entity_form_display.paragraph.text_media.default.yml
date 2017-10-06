@@ -1,0 +1,36 @@
+uuid: 40f53356-a849-46c1-a404-f00fb4102b98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_media.field_media_image
+    - field.field.paragraph.text_media.field_text_section
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.text_media
+  module:
+    - image
+id: paragraph.text_media.default
+targetEntityType: paragraph
+bundle: text_media
+mode: default
+content:
+  field_media_image:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_text_section:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

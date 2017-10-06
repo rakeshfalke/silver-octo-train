@@ -5,6 +5,7 @@ dependencies:
   config:
     - page_manager.page.home_page
   content:
+    - 'block_content:hero_block:312eb4b9-b85d-4ba6-a677-84ae8106e7b1'
     - 'block_content:home_slider:e85edef9-b38c-4e46-9237-b73243cb04e9'
   module:
     - block_content
@@ -24,6 +25,18 @@ variant_settings:
       region: top
       weight: 0
       uuid: 958b4ce0-2907-4a56-ba98-f7c89fded810
+      context_mapping: {  }
+    4d7f33b6-424c-463e-96be-daba396fd9c5:
+      id: 'block_content:312eb4b9-b85d-4ba6-a677-84ae8106e7b1'
+      label: 'Stay relevant'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: top
+      weight: 0
+      uuid: 4d7f33b6-424c-463e-96be-daba396fd9c5
       context_mapping: {  }
   id: block_display
   uuid: 0a7e7f26-8980-4768-a119-6e9d820449db
