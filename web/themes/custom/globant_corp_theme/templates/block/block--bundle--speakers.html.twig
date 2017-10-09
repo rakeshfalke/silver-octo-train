@@ -1,0 +1,25 @@
+{%
+  set classes = [
+    'block',
+    'block-' ~ configuration.provider|clean_class,
+    'block-' ~ plugin_id|clean_class,
+    'clearfix',
+    'speakers-block',
+  ]
+%}
+<section{{ attributes.addClass(classes) }}>
+<div class="container speakers">
+  <h2>Some of the Speakers this year</h2>
+  <div class="row">
+  {{ title_prefix }}
+  {% if label %}
+    <h2{{ title_attributes.addClass('block-title') }}>{{ label }}</h2>
+  {% endif %}
+  {{ title_suffix }}
+
+  {% block content %}
+    {{ content }}
+  {% endblock %}
+  </div>
+</div>  
+</section>

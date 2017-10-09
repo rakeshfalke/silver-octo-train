@@ -1,0 +1,24 @@
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    'col-lg-2 converge-speaker',
+
+  ]
+%}
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }}>
+    {% block content %}
+      <div class="speaker-image">
+        {{ content.field_image }}
+      </div>
+      <div class="speaker-details">
+        {{ content.field_name }}
+        {{ content.field_company }}
+        {{ content.field_role }}
+       
+    </div>
+    {% endblock %}
+  </div>
+{% endblock paragraph %}
